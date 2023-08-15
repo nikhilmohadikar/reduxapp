@@ -1,6 +1,6 @@
 export const DepositeMoney = (amount) => {
-    return () => {
-        ({
+    return (dispach) => {
+        dispach({
             type: "deposit",
             payload: amount
         })
@@ -8,8 +8,8 @@ export const DepositeMoney = (amount) => {
 }
 
 export const WithdrawMoney = (amount) => {
-    return () => {
-        ({
+    return (dispach) => {
+        dispach({
             type: "withdraw",
             payload: amount
         })
