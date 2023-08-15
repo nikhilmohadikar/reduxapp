@@ -4,9 +4,9 @@ const Shop = () => {
   return (
     <div>
         <div className='container my-5'>
-            <h2>Add Nike Shoes 50 Rs</h2>
+            <h2>Deposite / Withdraw Money</h2>
             <div className="btn btn-primary mx-2">-</div>
-                Add item to the cart
+                Update Balance
             <div className="btn btn-primary mx-2">+</div>
         </div>
     </div>
